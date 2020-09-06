@@ -11,7 +11,7 @@ namespace CSharp_Console_ClassesAndObjects
         }
         static void Main(string[] args)
         {
-            // Creating new oobjects from their classes with their own properities ( such as length or width )
+            // Creating new objects from their classes with their own properities ( such as length or width )
             RectangleClass MyRectangle = new RectangleClass(4, 5);
             TriangleClass MyRightTriangle = new TriangleClass(3, 4);
             // Using the methods within the classes
@@ -27,9 +27,9 @@ namespace CSharp_Console_ClassesAndObjects
         private static void WriteResults(string ShapeType, double Width, double Height,  double Area, double Perimeter)
         {
             Console.WriteLine($"---------------{ShapeType}---------------------");
-            Console.WriteLine($"Area of ({Width} x {Height}) {ShapeType}\t\t: {Area}\n" +
-                $"Perimeter of ({Width} x {Height}) {ShapeType}\t\t: {Perimeter}");
-            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine($"\nArea of ({Width} x {Height}) {ShapeType}\t\t: {Area}\n" +
+                $"Perimeter of ({Width} x {Height}) {ShapeType}\t\t: {Perimeter}\n");
+            Console.WriteLine("--------------------------------------------\n\n");
         }
     }
 }
