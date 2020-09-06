@@ -15,11 +15,11 @@ namespace CSharp_Console_ClassesAndObjects
             // Writing the results
             Console.WriteLine($"Area of ({MyRectangle.Width} x {MyRectangle.Height}) Rectangle\t\t: {AreaRect}\n" +
                 $"Perimeter of ({MyRectangle.Width} x {MyRectangle.Height}) Rectangle\t\t: {PerimeterRect}");
-            Console.WriteLine("-----------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------");
             double AreaTriangle = MyRightTriangle.Area();
             double PerimeterTriangle = MyRightTriangle.Perimeter();
-            Console.WriteLine($"Area of ({MyRightTriangle.Width} x {MyRightTriangle.Height}) Rectangle\t\t: {AreaTriangle}\n" +
-                $"Perimeter of ({MyRightTriangle.Width} x {MyRightTriangle.Height}) Rectangle\t\t: {PerimeterTriangle}");
+            Console.WriteLine($"Area of ({MyRightTriangle.Width} x {MyRightTriangle.Height}) RightTriangle\t\t: {AreaTriangle}\n" +
+                $"Perimeter of ({MyRightTriangle.Width} x {MyRightTriangle.Height}) RightTriangle\t: {PerimeterTriangle}");
         }
 
     }
